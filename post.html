@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reading Nook blog post from No Such Furry Books">
+    <title>Reading Nook Post | No Such Furry Books</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="No Such Furry Books Logo">
+                    <h1>No Such Furry Books</h1>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="reading-nook.html" class="active">The Reading Nook</a></li>
+                <li><a href="index.html#newsletter" class="cta-button">Stay Updated</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="blog-post-single">
+            <div class="container">
+                <div class="post-header">
+                    <a href="reading-nook.html" class="back-link">← Back to The Reading Nook</a>
+                    <div id="post-category" class="post-category"></div>
+                    <h1 id="post-title">Loading...</h1>
+                    <div class="post-meta">
+                        <span id="post-date"></span>
+                        <span class="meta-separator">•</span>
+                        <span id="post-author"></span>
+                    </div>
+                </div>
+
+                <div id="post-featured-image" class="post-featured-image"></div>
+
+                <div id="post-content" class="post-content">
+                    <p>Loading post...</p>
+                </div>
+
+                <div class="post-footer">
+                    <div id="post-tags" class="post-tags"></div>
+                    <a href="reading-nook.html" class="primary-button">← Back to All Posts</a>
+                </div>
+            </div>
+        </article>
+
+        <section class="newsletter-signup-section">
+            <div class="container">
+                <h3>Never Miss a Post</h3>
+                <p>Get The Reading Nook delivered to your inbox, plus exclusive activities, early book announcements, and special offers.</p>
+                <a href="index.html#newsletter" class="primary-button">Subscribe Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>No Such Furry Books</h4>
+                    <p>Independent children's books for growing hearts and curious minds.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="reading-nook.html">The Reading Nook</a></li>
+                        <li><a href="index.html#newsletter">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow our journey on social media</p>
+                    <div class="social-links">
+                        <p class="coming-soon-text">Social links coming soon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 No Such Furry Books. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/post.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+</body>
+</html>
