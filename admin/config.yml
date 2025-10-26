@@ -15,6 +15,17 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string", default: "No Such Furry Books" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Book Buzz", value: "book-buzz" }
+          - { label: "Reading Together", value: "reading-together" }
+          - { label: "In the Classroom", value: "classroom" }
+          - { label: "Activities & Freebies", value: "activities" }
+          - { label: "Behind the Pages", value: "behind-pages" }
+          - { label: "Heart-to-Heart", value: "heart-to-heart" }
+        default: "reading-together"
       - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
       - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
       - { label: "Body", name: "body", widget: "markdown" }

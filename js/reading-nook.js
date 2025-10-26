@@ -105,6 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: frontmatter.title,
             date: frontmatter.date,
             author: frontmatter.author,
+            category: frontmatter.category || 'reading-together',
             featured_image: frontmatter.featured_image,
             excerpt: excerpt,
             body: body,
@@ -127,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const article = document.createElement('article');
             article.className = 'blog-card';
-            article.setAttribute('data-category', 'reading-together'); // Default category
+            article.setAttribute('data-category', post.category);
 
             // Format date
             const date = new Date(post.date);
@@ -137,13 +138,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 day: 'numeric'
             });
 
+            // Get category label
+            const categoryLabels = {
+                'book-buzz': 'Book Buzz',
+                'reading-together': 'Reading Together',
+                'classroom': 'In the Classroom',
+                'activities': 'Activities & Freebies',
+                'behind-pages': 'Behind the Pages',
+                'heart-to-heart': 'Heart-to-Heart'
+            };
+            const categoryLabel = categoryLabels[post.category] || 'Reading Nook';
+
             article.innerHTML = `
                 <div class="blog-card-image">
                     ${post.featured_image ?
                         `<img src="${post.featured_image}" alt="${post.title}">` :
                         '<div class="placeholder-image">📚</div>'
                     }
-                    <span class="blog-category">Reading Nook</span>
+                    <span class="blog-category">${categoryLabel}</span>
                 </div>
                 <div class="blog-card-content">
                     <h4>${post.title}</h4>
