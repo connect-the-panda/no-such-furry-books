@@ -9,10 +9,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Load blog posts from posts folder
     async function loadBlogPosts() {
+        const postsGrid = document.querySelector('.posts-grid');
+        if (!postsGrid) {
+            console.error('Posts grid not found');
+            return;
+        }
+
+        // Show loading message
+        postsGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 2rem;">Loading blog posts...</p>';
+
         try {
             // Fetch the posts index
             const response = await fetch('/posts/posts-index.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
             const postFiles = await response.json();
+            console.log('Loaded post files:', postFiles);
 
             // Fetch all posts
             const posts = await Promise.all(
@@ -33,6 +46,10 @@ document.addEventListener('DOMContentLoaded', function() {
             setupFiltering();
         } catch (error) {
             console.error('Error loading blog posts:', error);
+            const postsGrid = document.querySelector('.posts-grid');
+            if (postsGrid) {
+                postsGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #e74c3c;">Error loading blog posts. Please refresh the page.</p>';
+            }
         }
     }
 
