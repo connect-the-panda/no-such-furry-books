@@ -1,0 +1,7 @@
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="No Such Furry Books Logo">
+                    <h1>No Such Furry Books</h1>
+                </a>
+            </div>
+

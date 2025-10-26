@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <!-- Background Book Shape -->
+  <rect x="10" y="8" width="35" height="44" rx="2" fill="#54BAC4" opacity="0.9"/>
+  <rect x="13" y="8" width="35" height="44" rx="2" fill="#A882BD"/>
+
+  <!-- Book Pages -->
+  <line x1="48" y1="12" x2="48" y2="48" stroke="white" stroke-width="0.5" opacity="0.6"/>
+  <line x1="50" y1="12" x2="50" y2="48" stroke="white" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Clearer Paw Print -->
+  <!-- Main Pad (larger, more prominent) -->
+  <ellipse cx="30" cy="30" rx="5" ry="6" fill="#FFD166"/>
+
+  <!-- Toe Pads (positioned in proper paw formation) -->
+  <!-- Top left toe -->
+  <ellipse cx="24" cy="21" rx="2.8" ry="3.5" fill="#FFD166" transform="rotate(-15 24 21)"/>
+  <!-- Top center toe -->
+  <ellipse cx="30" cy="19" rx="2.8" ry="3.5" fill="#FFD166"/>
+  <!-- Top right toe -->
+  <ellipse cx="36" cy="21" rx="2.8" ry="3.5" fill="#FFD166" transform="rotate(15 36 21)"/>
+  <!-- Bottom left toe (dewclaw position) -->
+  <ellipse cx="23" cy="27" rx="2.5" ry="3.2" fill="#FFD166" transform="rotate(-25 23 27)"/>
+
+  <!-- Text "NSFB" -->
+  <text x="60" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1A2332">
+    <tspan x="60" dy="0">No Such</tspan>
+    <tspan x="60" dy="20" font-size="18" fill="#A882BD">Furry Books</tspan>
+  </text>
+</svg>

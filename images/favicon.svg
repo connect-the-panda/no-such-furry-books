@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background Book Shape -->
+  <rect x="20" y="15" width="30" height="70" rx="3" fill="#54BAC4" opacity="0.9"/>
+  <rect x="25" y="15" width="30" height="70" rx="3" fill="#A882BD"/>
+
+  <!-- Book Pages -->
+  <line x1="55" y1="20" x2="55" y2="80" stroke="white" stroke-width="1" opacity="0.6"/>
+  <line x1="58" y1="20" x2="58" y2="80" stroke="white" stroke-width="1" opacity="0.4"/>
+
+  <!-- Clearer Paw Print -->
+  <!-- Main Pad (larger, more prominent) -->
+  <ellipse cx="40" cy="52" rx="7" ry="8.5" fill="#FFD166"/>
+
+  <!-- Toe Pads (positioned in proper paw formation) -->
+  <!-- Top left toe -->
+  <ellipse cx="32" cy="38" rx="4" ry="5" fill="#FFD166" transform="rotate(-15 32 38)"/>
+  <!-- Top center toe -->
+  <ellipse cx="40" cy="35" rx="4" ry="5" fill="#FFD166"/>
+  <!-- Top right toe -->
+  <ellipse cx="48" cy="38" rx="4" ry="5" fill="#FFD166" transform="rotate(15 48 38)"/>
+  <!-- Bottom left toe (dewclaw position) -->
+  <ellipse cx="30" cy="47" rx="3.5" ry="4.5" fill="#FFD166" transform="rotate(-25 30 47)"/>
+</svg>

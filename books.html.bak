@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About No Such Furry Books - Learn about our mission to create children's books that nurture emotional intelligence and celebrate diverse stories.">
+    <title>About | No Such Furry Books</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="No Such Furry Books Logo">
+                    <h1>No Such Furry Books</h1>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="reading-nook.html">The Reading Nook</a></li>
+                <li><a href="index.html#newsletter" class="cta-button">Stay Updated</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>About No Such Furry Books</h2>
+                <p class="subtitle">Independent publishing with heart</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="container">
+                <div class="about-story">
+                    <h3>Our Story</h3>
+                    <p>No Such Furry Books is an independent children's book press dedicated to creating stories that matter. We believe that the best children's books don't just entertain—they help young readers understand themselves and the world around them.</p>
+
+                    <p>In a world where children face increasingly complex emotional landscapes, we're committed to publishing books that naturally weave social-emotional learning into engaging, character-driven narratives. No lectures, no heavy-handed lessons—just authentic stories about real feelings, meaningful friendships, and the everyday adventures of growing up.</p>
+                </div>
+
+                <div class="values-section">
+                    <h3>What We Believe</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <h4>Emotional Intelligence Matters</h4>
+                            <p>We create stories that help children recognize, understand, and manage their emotions through relatable characters and situations. Social-emotional learning happens best when it's embedded naturally in compelling narratives.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Quality Over Quantity</h4>
+                            <p>Every book we publish meets professional standards for writing, illustration, and design. We invest in editing, professional illustration, and quality production to ensure our books compete with traditional publishers.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Diverse Voices & Experiences</h4>
+                            <p>Children deserve to see themselves in books and to encounter experiences different from their own. We're committed to authentic representation that reflects the real, diverse world kids live in.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Readers Come First</h4>
+                            <p>We create books that engage young readers while serving the adults who support them—parents, educators, and librarians looking for content that educates and entertains.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="approach-section">
+                    <h3>Our Approach</h3>
+                    <p>As an indie press, we have the freedom to take creative risks and focus on niche areas underserved by traditional publishing. We're particularly passionate about:</p>
+                    <ul class="approach-list">
+                        <li><strong>Social-Emotional Learning:</strong> Books that explore feelings, empathy, self-regulation, and relationship skills through storytelling rather than didactic lessons</li>
+                        <li><strong>Character-Driven Fiction:</strong> Stories where emotional intelligence and creative problem-solving emerge naturally through character actions and authentic situations</li>
+                        <li><strong>Authentic Representation:</strong> Diverse characters experiencing universal emotions and adventures, with cultural details woven naturally into stories</li>
+                        <li><strong>Age-Appropriate Content:</strong> Carefully crafted word counts, narrative structures, and illustration styles matched precisely to each age range</li>
+                    </ul>
+                </div>
+
+                <div class="future-section">
+                    <h3>What's Next</h3>
+                    <p>We're currently developing our first titles across multiple age ranges—from picture books for ages 3-8 to middle grade novels for ages 8-12. Each book is being crafted with professional editing, quality illustration, and careful attention to both educational value and storytelling excellence.</p>
+
+                    <p>Want to follow our journey? <a href="index.html#newsletter">Join our newsletter</a> to be the first to know about new releases, behind-the-scenes content, and special launch offers.</p>
+                </div>
+
+                <div class="standards-section">
+                    <h3>Our Commitment to Quality</h3>
+                    <p>No Such Furry Books follows industry-standard practices for:</p>
+                    <ul class="standards-list">
+                        <li>Professional editing and manuscript development</li>
+                        <li>Licensed professional illustration with clear contracts</li>
+                        <li>Accessible book design following WCAG guidelines</li>
+                        <li>Proper metadata optimization for discoverability</li>
+                        <li>Multi-format availability (print, ebook, audio when possible)</li>
+                        <li>Library-quality production standards</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h3>Join Our Community</h3>
+                <p>Be part of the No Such Furry Books journey from the very beginning.</p>
+                <a href="index.html#newsletter" class="primary-button">Subscribe to Updates</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>No Such Furry Books</h4>
+                    <p>Independent children's books for growing hearts and curious minds.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="reading-nook.html">The Reading Nook</a></li>
+                        <li><a href="index.html#newsletter">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow our journey on social media</p>
+                    <div class="social-links">
+                        <p class="coming-soon-text">Social links coming soon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 No Such Furry Books. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
