@@ -3,7 +3,7 @@ title: There's More to Reading Than Words
 date: 2025-10-26T16:56:00.000-04:00
 author: No Such Furry Books
 category: reading-together
-featured_image: https://images.pexels.com/photos/1094072/pexels-photo-1094072.jpeg
+featured_image: /images/reading-nook/child-looking-at-book-at-sidewalk-stall.jpg
 tags:
   - RaisingReaders
   - EarlyLiteracy
